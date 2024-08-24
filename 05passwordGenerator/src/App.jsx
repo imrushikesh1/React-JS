@@ -7,9 +7,11 @@ function App() {
   const [charAllowed, setCharAllowed] = useState(false);
   const [password, setPassword] = useState(false);
 
+
   return (
     <>
       <div className='text-4xl text-center text-white'>Password Generator</div>
+      <div className='text-4xl text-center text-white'>Password</div>
     </>
   )
 }
